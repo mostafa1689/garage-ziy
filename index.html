@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Garage ZIY</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial;
+        background: #111;
+        color: white;
+      }
+
+      header {
+        background: black;
+        padding: 20px;
+        text-align: center;
+        border-bottom: 2px solid #ff3c00;
+      }
+
+      header h1 {
+        color: #ff3c00;
+        margin: 0;
+      }
+
+      .hero {
+        background: url("https://images.unsplash.com/photo-1503376780353-7e6692767b70")
+          no-repeat center/cover;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .hero h2 {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      .services {
+        display: flex;
+        justify-content: space-around;
+        padding: 40px;
+        flex-wrap: wrap;
+      }
+
+      .service {
+        background: #222;
+        padding: 20px;
+        margin: 10px;
+        width: 250px;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+      .service h3 {
+        color: #ff3c00;
+      }
+
+      .cta {
+        text-align: center;
+        padding: 40px;
+      }
+
+      .cta button {
+        background: #ff3c00;
+        color: white;
+        border: none;
+        padding: 15px 30px;
+        font-size: 18px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      footer {
+        background: black;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Garage ZIY 🚗</h1>
+    </header>
+
+    <div class="hero">
+      <h2>Réparation automobile à Avignon</h2>
+    </div>
+
+    <div class="services">
+      <div class="service">
+        <h3>🔧 Révision</h3>
+        <p>Entretien complet de votre véhicule</p>
+      </div>
+
+      <div class="service">
+        <h3>🛠️ Réparation</h3>
+        <p>Diagnostic et réparation rapide</p>
+      </div>
+
+      <div class="service">
+        <h3>🚗 Pneus</h3>
+        <p>Montage et équilibrage</p>
+      </div>
+    </div>
+
+    <div class="cta">
+      <h2>Besoin d’un devis ?</h2>
+      <!-- <a href="tel:0612345678">
+        <button>📞 Appelez-nous</button>
+      </a> -->
+      <a href="https://wa.me/33612345678" target="_blank">
+        <button>💬 WhatsApp</button>
+      </a>
+      <div class="cta">
+        <h2>Demande de devis</h2>
+        <input type="text" placeholder="Nom" /><br /><br />
+        <input type="text" placeholder="Téléphone" /><br /><br />
+        <textarea placeholder="Votre demande"></textarea><br /><br />
+        <button>Envoyer</button>
+      </div>
+    </div>
+    <iframe
+      src="https://www.google.com/maps?q=Avignon&output=embed"
+      width="100%"
+      height="300"
+      style="border: 0"
+    >
+    </iframe>
+    <footer>
+      <p>Garage ZIY - Avignon</p>
+    </footer>
+  </body>
+</html>
